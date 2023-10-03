@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trigger xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>46.0</apiVersion>
+    <description>Verifying Customer Docs</description>
+    <status>Active</status>
+    <triggerSource>onLoan_Application__c</triggerSource>
+    <triggerType>after insert, after update</triggerType>
+    <name>VerifyCustomerDocs</name>
+    <type>Loan_Application__c</type>
+</Trigger>
